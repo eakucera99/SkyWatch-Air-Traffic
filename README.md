@@ -1,4 +1,5 @@
-SkyWatch: Real-Time Air Traffic Map
+**SkyWatch: Real-Time Air Traffic Map**
+
 A real-time air traffic monitoring application that displays aircraft on a map, predicts their future positions, and visualizes their flight paths. The application allows users to input flight parameters and view aircraft data on a live map.
 
 Features
