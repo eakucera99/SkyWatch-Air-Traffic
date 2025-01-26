@@ -14,30 +14,6 @@ Cesiumjs: JavaScript library for interactive maps.
 HTML/CSS: Front-end structure and styling.
 JavaScript (AJAX): To send form data to the backend without reloading the page.
 
-Project Structure
-
-
-/real-time-air-traffic-map
-│
-├── /static
-│   ├── /css
-│   │   └── styles.css       
-│   └── /js
-│       └── scripts.js       
-│
-├── /templates
-│   └── index.html           
-│
-├── /app
-│   ├── __init__.py          
-│   ├── routes.py            
-│   └── models.py            
-│
-├── main.py                  
-├── requirements.txt         
-└── README.md      
-
-
 Installation
 Clone the repository:
 
