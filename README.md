@@ -7,16 +7,16 @@ Aircraft position prediction over a defined time interval.
 Interactive map using Leaflet.js for plotting aircraft locations.
 Form to filter aircraft data based on latitude, longitude, and prediction time.
 User-friendly interface to submit and view results.
+
 Technologies Used
 Flask: Python web framework for building the backend API and handling routes.
-Leaflet.js: JavaScript library for interactive maps.
+Cesiumjs: JavaScript library for interactive maps.
 HTML/CSS: Front-end structure and styling.
 JavaScript (AJAX): To send form data to the backend without reloading the page.
-OpenStreetMap: Map tiles for the base map.
+
 Project Structure
-bash
-Copy
-Edit
+
+
 /real-time-air-traffic-map
 │
 ├── /static
@@ -35,15 +35,17 @@ Edit
 │
 ├── main.py                  
 ├── requirements.txt         
-└── README.md                
+└── README.md      
+
+
 Installation
 Clone the repository:
 
 bash
 Copy
 Edit
-git clone https://github.com/eakucera99/SkyWatch.git
-cd SkyWatch
+git clone https://github.com/eakucera99/SkyWatch-Air-Traffic.git
+cd SkyWatch-Air-Traffic
 Create a virtual environment:
 
 bash
@@ -74,6 +76,7 @@ Features in Development
 Real-time Data: Currently, the aircraft data is simulated. Integration with a real-world API (e.g., ADS-B data) is planned for future versions.
 Authentication: User login and saving favorite aircraft data for future reference (optional).
 Roadmap
- Integrate live air traffic data API for real-time aircraft information.
+ Make imagery clear
+ Clean up the flight and add in more flight info
  Implement user authentication for saving preferences and search history.
- Add more advanced flight path predictions and visualization.
+ Add more advanced flight path predictions.
